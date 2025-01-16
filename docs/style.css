@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/*BALISES*/
+body{
+    font-family: Roboto; 
+    background-color: black;
+    color: white;
+    
+}
+header{
+    height: 48rem;
+    margin-bottom: 10rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/*CLASS*/
+
+.header-team {
+    color: white;
+    background-color: black;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.header-navbar{
+    font-size: 1.5rem;
+}
+.header-navbar{
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    width: 50%;
+    margin-left: 50%;
+    
+  }
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+} 
+.header-poster{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-image: url(/ressources/images/hero-banner.png);
+    max-width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 2%;
+    background-size: cover;
+}
+.header-title{
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 2.5rem;
+}
+.header-catchphrase{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.purple{
+    color: rgb(120, 115, 227);
+}
+.offer{
+    text-align: center;
+    border: 1px solid rgb(120, 115, 227);
+    border-radius: 1rem;
+    padding: 2rem 0 2rem 0;
+    
+}
+.offer__title{
+    color: rgb(120, 115, 227);
+    font-size: 1.2rem;
+}
+.offer__subtitle{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.offer__cost{
+    background-color: rgb(120, 115, 227);
+    width: 25%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 3.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.offer__meal{
+    grid-column: 2/4;
+}
+.offer__move{
+    grid-row: 1/3;
+}
+.offer__party{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.offer__cheer{
+    grid-column: 1/3;
+}
+.heros{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+}
+.heros__card{
+    text-align: center;
+    position: relative; 
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    overflow: hidden; 
+}
+
+.cat{
+    background-image: url(/ressources/images/catastrophic.png);
+    background-size: cover;
+}
+.carotte{
+    background-image: url(/ressources/images/carotte-woman.png);
+    background-size: cover;
+}
+.ultra{
+    background-image: url(/ressources/images/ultraquenarde.png);
+    background-size: cover;
+}
+.pouply{
+    background-image: url(/ressources/images/poulpy.png);
+    background-size: cover;
+}
+.wu-tang{
+    background-image: url(/ressources/images/oran-wu-tang-clan.png);
+    background-size: cover;
+}
+.super{
+    background-image: url(/ressources/images/superime.png);
+    background-size: cover;
+}
+
+.heros__name{
+    position: absolute;
+    bottom: 3.5rem; 
+    width: 100%;
+    font-size: 1.8rem; 
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 0.5rem;
+    text-align: center;
+}
+.heros__description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.heros__description {
+    font-size: 1rem;
+}
+
+.all-heroes-button {
+    color: white;
+    background-color: rgb(120, 115, 227);
+    width: 8%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 2rem auto 3.5rem auto; 
+    white-space: nowrap;
+    overflow: hidden;
+    display: block; 
+    text-align: center; 
+    font-size: 0.7rem;
+}
+.testimony{
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin: 0 auto; 
+    width: 90%;
+    margin-bottom: 4rem; 
+}
+
+.testimony__card{
+    background-color: rgb(120, 115, 227);
+    text-align: center;
+    width: 20%;
+    border: 0.4rem solid rgb(120, 115, 227);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 20rem;
+    border-top-right-radius: 20rem;
+    padding-bottom: 2rem;
+
+}
+.testimony__img{
+    width: 20rem; 
+    height: 20rem; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin: 0 auto; 
+    display: block; 
+    border: 0.4rem, solid rgb(100, 95, 207);
+}
+.testimony__name{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.testimony__description{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.form {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 2rem;
+}
+
+.form label {
+    display: block; 
+    margin-bottom: 0.5rem; 
+    font-weight: bold;
+    text-align: center; 
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%; 
+    padding: 0.8rem; 
+    margin-bottom: 1.5rem; 
+    border: 1px solid rgb(61, 61, 61); 
+    border-radius: 0.5rem; 
+    font-size: 1rem;
+    box-sizing: border-box; 
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.form textarea {
+    resize: vertical; 
+}
+
+.form-btn {
+    background-color: rgb(120, 115, 227);
+    color: white;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+}
+
+.form-btn:hover {
+    background-color: rgb(1120, 115, 227); 
+}
+.footer{
+    text-align: center;
+    background-color: rgb(120, 115, 227);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
+    margin-top: 2rem;
+
+}
+
+.footer__div__title{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.footer__navbarr{
+    margin-bottom: 3rem;
+}
+/* Responsive pour les écrans entre 768px et 1024px */
+@media (min-width: 768px) and (max-width: 1024px){
+    .services{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .offer__meal{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    .offer__move{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .offer__party{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .offer__cheer{
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+    .offer_commute{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .offer__cost{
+        width: 35%;
+    }
+    .heros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: 120vh;
+        
+    }
+    .all-heroes-button {
+        color: white;
+        background-color: rgb(120, 115, 227);
+        width: 12%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin: 2rem auto 3.5rem auto; 
+        white-space: nowrap;
+        overflow: hidden;
+        display: block; 
+        text-align: center; 
+        font-size: 0.7rem;
+    }
+}
+
+/* Responsive pour les écrans de 1025px et plus */
+@media (min-width: 1025px){
+    
+}
